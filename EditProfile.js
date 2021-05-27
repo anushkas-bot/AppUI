@@ -13,7 +13,7 @@ import {Header} from './Header';
 import DatePicker from 'react-native-datepicker';
 //import {Dropdown} from 'react-native-material-dropdown';
 import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
-import ImagePicker from 'react-native-image-picker';
+//import ImagePicker from 'react-native-image-picker';
 import {COLORS} from './Colors';
 import {IMAGES} from './Images';
 

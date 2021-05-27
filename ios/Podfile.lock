@@ -272,8 +272,6 @@ PODS:
   - React-jsinspector (0.63.3)
   - react-native-document-picker (4.0.0):
     - React-Core
-  - react-native-image-picker (3.8.0):
-    - React-Core
   - react-native-pager-view (5.1.9):
     - React-Core
   - react-native-safe-area-context (3.1.8):
@@ -361,15 +359,6 @@ PODS:
     - React
   - RNImageColors (1.2.8):
     - React-Core
-  - RNImageCropPicker (0.36.2):
-    - React-Core
-    - React-RCTImage
-    - RNImageCropPicker/QBImagePickerController (= 0.36.2)
-    - TOCropViewController
-  - RNImageCropPicker/QBImagePickerController (0.36.2):
-    - React-Core
-    - React-RCTImage
-    - TOCropViewController
   - RNReanimated (1.13.1):
     - React
   - RNScreens (2.11.0):
@@ -380,7 +369,6 @@ PODS:
     - React
   - SRSRadialGradient (1.0.8):
     - React
-  - TOCropViewController (2.6.0)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -424,7 +412,6 @@ DEPENDENCIES:
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - react-native-document-picker (from `../node_modules/react-native-document-picker`)
-  - react-native-image-picker (from `../node_modules/react-native-image-picker`)
   - react-native-pager-view (from `../node_modules/react-native-pager-view`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - "react-native-slider (from `../node_modules/@react-native-community/slider`)"
@@ -447,7 +434,6 @@ DEPENDENCIES:
   - "RNFBStorage (from `../node_modules/@react-native-firebase/storage`)"
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNImageColors (from `../node_modules/react-native-image-colors`)
-  - RNImageCropPicker (from `../node_modules/react-native-image-crop-picker`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - RNSVG (from `../node_modules/react-native-svg`)
@@ -477,7 +463,6 @@ SPEC REPOS:
     - nanopb
     - OpenSSL-Universal
     - PromisesObjC
-    - TOCropViewController
     - YogaKit
 
 EXTERNAL SOURCES:
@@ -515,8 +500,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
   react-native-document-picker:
     :path: "../node_modules/react-native-document-picker"
-  react-native-image-picker:
-    :path: "../node_modules/react-native-image-picker"
   react-native-pager-view:
     :path: "../node_modules/react-native-pager-view"
   react-native-safe-area-context:
@@ -561,8 +544,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-gesture-handler"
   RNImageColors:
     :path: "../node_modules/react-native-image-colors"
-  RNImageCropPicker:
-    :path: "../node_modules/react-native-image-crop-picker"
   RNReanimated:
     :path: "../node_modules/react-native-reanimated"
   RNScreens:
@@ -614,7 +595,6 @@ SPEC CHECKSUMS:
   React-jsiexecutor: b56c03e61c0dd5f5801255f2160a815f4a53d451
   React-jsinspector: 8e68ffbfe23880d3ee9bafa8be2777f60b25cbe2
   react-native-document-picker: b3e78a8f7fef98b5cb069f20fc35797d55e68e28
-  react-native-image-picker: a135b727a79e0f11423506994bfcdb96c6da4a06
   react-native-pager-view: c67deb33b6d0a3e254ffda01ce902a59ac2456c7
   react-native-safe-area-context: 01158a92c300895d79dee447e980672dc3fb85a6
   react-native-slider: b733e17fdd31186707146debf1f04b5d94aa1a93
@@ -637,13 +617,11 @@ SPEC CHECKSUMS:
   RNFBStorage: e26d1e8e5c35ac82ebb70f375006f5528e4988ce
   RNGestureHandler: 7a5833d0f788dbd107fbb913e09aa0c1ff333c39
   RNImageColors: f6174ba2d2e071e52024cab533128636bb711919
-  RNImageCropPicker: 35a3ceb837446fa11547704709bb22b5fac6d584
   RNReanimated: dd8c286ab5dd4ba36d3a7fef8bff7e08711b5476
   RNScreens: 0e91da98ab26d5d04c7b59a9b6bd694124caf88c
   RNSVG: ce9d996113475209013317e48b05c21ee988d42e
   RNVectorIcons: bc69e6a278b14842063605de32bec61f0b251a59
   SRSRadialGradient: 71378a83e52b616c40367c37ee7cb6865f9f7c6e
-  TOCropViewController: 3105367e808b7d3d886a74ff59bf4804e7d3ab38
   Yoga: 7d13633d129fd179e01b8953d38d47be90db185a
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 

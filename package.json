@@ -37,8 +37,6 @@
     "react-native-fusioncharts": "^4.1.2",
     "react-native-gesture-handler": "^1.8.0",
     "react-native-image-colors": "^1.2.8",
-    "react-native-image-crop-picker": "^0.36.2",
-    "react-native-image-picker": "^3.8.0",
     "react-native-keyboard-accessory": "^0.1.12",
     "react-native-keyboard-aware-scroll-view": "^0.9.4",
     "react-native-linear-gradient": "^2.5.6",

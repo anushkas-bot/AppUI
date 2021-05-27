@@ -52,7 +52,7 @@ const NavigationDrawerStructure = (props) => {
   );
 };
 
-const firstScreenStack = ({ navigation }) => {
+/*const firstScreenStack = ({ navigation }) => {
   return (
     <Stack.Navigator
       screenOptions={{
@@ -76,7 +76,7 @@ const firstScreenStack = ({ navigation }) => {
       />
     </Stack.Navigator>
   );
-};
+};*/
 
 const secondScreenStack = ({ navigation }) => {
   return (
@@ -159,7 +159,7 @@ const fourthScreenStack = ({ navigation }) => {
   );
 };
 
-const fifthScreenStack = ({ navigation }) => {
+/*const fifthScreenStack = ({ navigation }) => {
   return (
     <Stack.Navigator
       screenOptions={{
@@ -183,7 +183,7 @@ const fifthScreenStack = ({ navigation }) => {
       />
     </Stack.Navigator>
   );
-};
+};*/
 
 const sixthScreenStack = ({ navigation }) => {
   return (
@@ -237,7 +237,7 @@ const seventhScreenStack = ({ navigation }) => {
   );
 };
 
-const eigthScreenStack = ({ navigation }) => {
+/*const eigthScreenStack = ({ navigation }) => {
   return (
     <Stack.Navigator
       screenOptions={{
@@ -261,7 +261,7 @@ const eigthScreenStack = ({ navigation }) => {
       />
     </Stack.Navigator>
   );
-};
+};*/
 
 const ninthScreenStack = ({ navigation }) => {
   return (
@@ -289,7 +289,7 @@ const ninthScreenStack = ({ navigation }) => {
   );
 };
 
-const tenthScreenStack = ({ navigation }) => {
+/*const tenthScreenStack = ({ navigation }) => {
   return (
     <Stack.Navigator
       screenOptions={{
@@ -313,7 +313,7 @@ const tenthScreenStack = ({ navigation }) => {
       />
     </Stack.Navigator>
   );
-};
+};*/
 
 const eleventhScreenStack = ({ navigation }) => {
   return (
@@ -450,11 +450,6 @@ const App = () => {
           );
         }}>
         <Drawer.Screen
-          name="FirstPage"
-          options={{ drawerLabel: 'First Page Option' }}
-          component={firstScreenStack}
-        />
-        <Drawer.Screen
           name="SecondPage"
           options={{ drawerLabel: 'Second Page Option' }}
           component={secondScreenStack}
@@ -470,11 +465,6 @@ const App = () => {
           component={fourthScreenStack}
         />
         <Drawer.Screen
-          name="FifthPage"
-          options={{ drawerLabel: 'Fifth Page Option' }}
-          component={fifthScreenStack}
-        />
-        <Drawer.Screen
           name="SixthPage"
           options={{ drawerLabel: 'Sixth Page Option' }}
           component={sixthScreenStack}
@@ -485,20 +475,10 @@ const App = () => {
           component={seventhScreenStack}
         />
         <Drawer.Screen
-          name="EigthPage"
-          options={{ drawerLabel: 'Eigth Page Option' }}
-          component={eigthScreenStack}
-        />
-        <Drawer.Screen
           name="NinthPage"
           options={{ drawerLabel: 'Ninth Page Option' }}
           component={ninthScreenStack}
           />
-          <Drawer.Screen
-            name="TenthPage"
-            options={{ drawerLabel: 'Tenth Page Option' }}
-            component={tenthScreenStack}
-            />
         <Drawer.Screen
           name="EleventhPage"
           options={{ drawerLabel: 'Eleventh Page Option' }}

@@ -129,4 +129,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default Contacts;
+export default Contact;
