@@ -7,7 +7,7 @@ import {Icon} from 'native-base';
 // or any pure javascript modules available in npm
 import { heightPercentageToDP as hp, widthPercentageToDP as wp, moderateScale } from './responsiveFunc';
 
-export default function ComposePost() {
+export default function Compose() {
   const[titles, setTitle] = useState('');
   const[setline, setLineUserd] = useState('');
   const[posts, setPost] = useState('');

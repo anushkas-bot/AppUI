@@ -76,7 +76,7 @@ const PostHeader = (props) => {
     )
 }
 
-const PostUploaded = (props) => {
+const Caption = (props) => {
 
     const [caption, setCaption] = useState('')
     const [mVisible, setMVisible] = useState(false);
@@ -223,4 +223,4 @@ const mapStateToProps = state => {
     };
 }
 
-export default PostUploaded;
+export default Caption;

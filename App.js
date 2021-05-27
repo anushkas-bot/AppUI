@@ -15,10 +15,10 @@ import Contacts from './Contact';
 import Fusion from './Fusion';
 import EditProfile2 from './EditProfile2';
 import Notifications from './Notifications';
-import ComposePost from './Compose';
+import Compose from './Compose';
 import Design from './Design';
 import Profile from './Profile';
-import PostUploaded from './Caption';
+import Caption from './Caption';
 import Dashboard from './Dashboard'
 import LinearGradient from 'react-native-linear-gradient'
 import ProfileReport from './ProfileReport'
@@ -150,7 +150,7 @@ const fourthScreenStack = ({ navigation }) => {
       }}>
       <Stack.Screen
         name="FourthPage"
-        component={ComposePost}
+        component={Compose}
         options={{
           title: 'Compose', //Set Header Title
         }}
@@ -202,7 +202,7 @@ const sixthScreenStack = ({ navigation }) => {
       }}>
       <Stack.Screen
         name="SixthPage"
-        component={PostUploaded}
+        component={Caption}
         options={{
           title: 'Caption', //Set Header Title
         }}
@@ -237,7 +237,7 @@ const seventhScreenStack = ({ navigation }) => {
   );
 };
 
-/*const eigthScreenStack = ({ navigation }) => {
+const eigthScreenStack = ({ navigation }) => {
   return (
     <Stack.Navigator
       screenOptions={{
@@ -261,7 +261,7 @@ const seventhScreenStack = ({ navigation }) => {
       />
     </Stack.Navigator>
   );
-};*/
+};
 
 const ninthScreenStack = ({ navigation }) => {
   return (
